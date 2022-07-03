@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
-class your;
+class your;//friend class
 class my{
 	int a=10;
-	friend your;
+	friend  your;//declaring as friend
 };
 class your{
 	public:
